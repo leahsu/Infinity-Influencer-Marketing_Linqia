@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Infinity Influencer Marketing</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Update Your Keyword</h1>
+    <br>
+    <div class="form">
+        <form action="/update/{{vocab.id}}" method="POST" style="text-align: center">
+            <input type="text" name="content" id="content" value="{{vocab.content}}">
+            <input type="submit" value="Update Vocab">
+        </form>
+    </div>
+</div>
+{% endblock %}

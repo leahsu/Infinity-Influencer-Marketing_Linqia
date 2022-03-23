@@ -1,0 +1,19 @@
+body, html {
+    margin: 10pt;
+    max-width: max-content;
+    font-family: san-serif;
+    background-color: lightgrey;
+}
+
+.btn{
+    margin: 10pt;
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+#content {
+    width: 50%;
+}
