@@ -33,8 +33,27 @@ This server will start on port 5000 by default. You can change this in `main.py`
 ```python
 if __name__ == "__main__":
     app.run(debug=True, port=<desired port>)
+    
 ```
-
+### Folder Structure
+```
+.
+├── Dockerfile
+├── README.md
+├── __pycache__
+│   └── main.cpython-39.pyc
+├── library.db
+├── main.py
+├── requirements.txt
+├── static
+│   └── css
+│       └── main.css
+└── templates
+    ├── base.html
+    ├── index.html
+    ├── post.html
+    └── update.html
+```
 ### Demo
 
 This demo simply shows how the program works.
